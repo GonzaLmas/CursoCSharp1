@@ -6,12 +6,12 @@ namespace ejercicio2
     {
         static void Main(string[] args)
         {
-            int n1, resultado;
+            int n1, res;
 
             Console.WriteLine("Escriba un número: ");
             n1 = int.Parse(Console.ReadLine());
 
-            resultado = n1 * n1 * n1;
+            res = n1 * n1 * n1;
 
             Console.WriteLine("El cubo del número ingresado es: " + resultado);
 
